@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/action_settings"
+    android:title="Аудио" >
+    <menu>
+        <group
+            android:checkableBehavior="all">
+            <item
+                android:id="@+id/music"
+                android:title="Музыка" />
+            <item
+                android:id="@+id/touch"
+                android:title="Звук клика" />
+            <item
+                android:id="@+id/celebrate"
+                android:title="Звук окончания игры" />
+        </group>
+    </menu>
+</item>
+    <item
+        android:id="@+id/save"
+        android:title="Сохранить настройки" />
+    <item
+        android:id="@+id/load"
+        android:title="Загрузить настройки" />
+</menu>
